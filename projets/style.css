@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    background-color: #284fc2;
+    color: #FFF;
+    font-family: 'Open Sans Condensed', cursive;
+}
+
+
+nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+    color: #FFF;
+}
+nav .titre{
+    display: flex;
+}
+nav .titre img{
+    width: 82px;
+    height: 82px;
+    margin-right: 20px;
+}
+nav .titre h1{
+    font-size: 30px;
+	color: #FFF;
+	transition: .6s;
+    font-family: 'Grechen Fuemen', cursive;
+}
+nav .titre h1:hover{
+	text-decoration: underline;
+    font-size: 35px;
+    margin-top: 20px;
+  	color: #ebaf4c;
+}
+nav .onglets{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+nav .onglets  a{
+  	text-decoration: none;
+  	color: #FFF;
+  	margin-right: 10px;
+  	transition: .3s;
+}
+nav .onglets  a:hover{
+	color: #ebaf4c;
+	font-size: 25px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+nav .onglets .actual{
+  	text-decoration: none;
+  	color: #ebaf4c;
+  	margin-right: 10px;
+  	transition: .3s;
+}
+nav .onglets .actual:hover{
+	color: #FFF;
+	font-size: 25px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+
+.posts{
+    text-decoration: underline;
+}
+
+
+
+.part1{
+    background-image: url(/assets/baniere.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.part1 .projet1{
+    margin-top: 175px;
+    margin-left: 25%;
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 250px;
+    border-top: 1px solid rgb(129,129,129);
+    border-left: 1px solid rgb(129,129,129);
+    background: rgba(76,106,75,0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+.part1 .projet1 .top{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.part1 .projet1 .top img{
+    width: 60px;
+    height: 60px;
+}
+.part1 .projet1 .top p{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.part1 .projet1 .description{
+    font-size: 18px;;
+}
+.part1 .projet1 .bottom{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.part1 .projet1 .bottom a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+    font-size: 15;
+}
+.part1 .projet1 .bottom a:hover{
+    text-decoration: underline;
+    color: #ebaf4c;
+    font-size: 17;
+}
