@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    background-color: #284fc2;
+    background-image: url("/assets/baniere.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    font-family: 'Open Sans Condensed', cursive;
+}
+
+
+nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+    color: #FFF;
+}
+nav .titre{
+    display: flex;
+}
+nav .titre img{
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+nav .titre h1{
+    font-size: 50px;
+    margin-top: 30px;
+	color: #FFF;
+	transition: .6s;
+    font-family: 'Grechen Fuemen', cursive;
+}
+nav .titre h1:hover{
+	text-decoration: underline;
+    font-size: 55px;
+    margin-top: 30px;
+  	color: #ebaf4c;
+}
+nav .onglets{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+nav .onglets  a{
+  	text-decoration: none;
+  	color: #FFF;
+  	margin-right: 10px;
+	font-size: 25px;
+  	transition: .3s;
+}
+nav .onglets  a:hover{
+	color: #ebaf4c;
+	font-size: 30px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+nav .onglets .actual{
+  	text-decoration: none;
+  	color: #ebaf4c;
+  	margin-right: 10px;
+      font-size: 25px;
+  	transition: .3s;
+}
+nav .onglets .actual:hover{
+	color: #FFF;
+	font-size: 30px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+
+
+.articles{
+	margin-top: 30px;
+}
+.articles .article{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+    margin-left: 12.5%;
+    width: 75%;
+    height: 450px;
+    border-top: 1px solid rgb(129,129,129);
+    border-left: 1px solid rgb(129,129,129);
+    background: rgba(76,106,75,0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+.articles .article .left iframe{
+    margin-top: 25px;
+    margin-left: 25px;
+	height: 400px;
+	width: 250px;
+}
+.articles .article .right{
+	max-width: 50%;
+	margin-left: 40px;
+}
+.articles .article .right h1{
+    margin-left: 25%;
+    font-size: 40px;
+    font-family: 'Grechen Fuemen', cursive;
+}
+.articles .article .right p.description{
+	color: #fff;
+    font-size: 25px;
+}
