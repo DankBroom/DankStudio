@@ -130,3 +130,51 @@ nav .onglets .actual:hover{
     color: #ebaf4c;
     font-size: 17;
 }
+
+
+.articles{
+	margin-top: 30px;
+    background-image: url(/assets/baniere.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.articles .article{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+    margin-left: 12.5%;
+    width: 75%;
+    height: 300px;
+    border-top: 1px solid rgb(129,129,129);
+    border-left: 1px solid rgb(129,129,129);
+    background: rgba(76,106,75,0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+.articles .article .left img{
+    margin-top: 25px;
+    margin-left: 25px;
+	height: 250px;
+	width: 250px;
+}
+.articles .article .right{
+	max-width: 50%;
+	margin-left: 40px;
+}
+body .articles .article .right h1{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    transition: .3s;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Grechen Fuemen', cursive;
+}
+.articles .article .right p.description{
+	color: #fff;
+    font-size: 20px;
+}
