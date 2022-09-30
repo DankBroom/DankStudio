@@ -74,64 +74,6 @@ nav .onglets .actual:hover{
 
 
 
-.part1{
-    background-image: url(/assets/baniere.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-.part1 .projet1{
-    margin-top: 175px;
-    margin-left: 25%;
-    position: absolute;
-    z-index: 1;
-    width: 50%;
-    height: 250px;
-    border-top: 1px solid rgb(129,129,129);
-    border-left: 1px solid rgb(129,129,129);
-    background: rgba(76,106,75,0.3);
-    backdrop-filter: blur(20px);
-    border-radius: 10px;
-}
-.part1 .projet1 .top{
-    display: flex;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 25px;
-}
-.part1 .projet1 .top img{
-    width: 60px;
-    height: 60px;
-}
-.part1 .projet1 .top p{
-    margin-top: 10px;
-    margin-left: 15px;
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: 30px;
-}
-.part1 .projet1 .description{
-    font-size: 18px;;
-}
-.part1 .projet1 .bottom{
-    margin-left: 15px;
-    margin-right: 15px;
-}
-.part1 .projet1 .bottom a{
-    text-decoration: none;
-    color: #fff;
-    transition: .3s;
-    font-size: 15;
-}
-.part1 .projet1 .bottom a:hover{
-    text-decoration: underline;
-    color: #ebaf4c;
-    font-size: 17;
-}
-
-
 .articles{
 	margin-top: 30px;
     background-image: url(/assets/baniere.png);
@@ -177,4 +119,89 @@ body .articles .article .right h1{
 .articles .article .right p.description{
 	color: #fff;
     font-size: 20px;
+}
+footer hr{
+    width: 45%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    body{
+        background-image: none;
+    }
+
+
+    nav{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        color: #FFF;
+    }
+    nav .titre{
+        display: flex;
+    }
+    nav .titre img{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+    nav .titre h1{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    nav .titre h1:hover{
+        font-size: 30px;
+        margin-top: 12px;
+    }
+    nav .onglets{
+        margin-top: 10px;
+    }
+    nav .onglets  a{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    nav .onglets  a:hover{
+        font-size: 25px;
+    }
+    nav .onglets .actual{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    nav .onglets .actual:hover{
+        font-size: 25px;
+    }
+
+
+    .articles{
+        margin-top: 20px;
+        background-image: none;
+    }
+    .articles .article{
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .articles .article .left img{
+        margin-top: 10px;
+        margin-left: 10px;
+        height: auto;
+        width: 92%;
+    }
+    .articles .article .right{
+        max-width: 75%;
+        margin-left: 10px;
+    }
+    body .articles .article .right a{
+      font-size: 25px;
+      transition: .3s;
+    }
+    .articles .article .right p.description{
+        font-size: 20px;
+    }
+    
+    footer hr{
+        width: 85%;
+    }
 }

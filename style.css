@@ -122,3 +122,86 @@ body .articles .article .right a:hover{
 .articles .article .right p.description{
 	color: #fff;
 }
+footer hr{
+    width: 45%;
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        background-image: none;
+    }
+
+
+    nav{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        color: #FFF;
+    }
+    nav .titre{
+        display: flex;
+    }
+    nav .titre img{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+    nav .titre h1{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    nav .titre h1:hover{
+        font-size: 30px;
+        margin-top: 12px;
+    }
+    nav .onglets{
+        margin-top: 10px;
+    }
+    nav .onglets  a{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    nav .onglets  a:hover{
+        font-size: 25px;
+    }
+    nav .onglets .actual{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    nav .onglets .actual:hover{
+        font-size: 25px;
+    }
+
+
+    .articles{
+        margin-top: 20px;
+    }
+    .articles .article{
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .articles .article .left img{
+        margin-top: 10px;
+        margin-left: 10px;
+        height: auto;
+        width: 92%;
+    }
+    .articles .article .right{
+        max-width: 75%;
+        margin-left: 10px;
+    }
+    body .articles .article .right a{
+      font-size: 25px;
+      transition: .3s;
+    }
+    .articles .article .right p.description{
+        font-size: 20px;
+    }
+    
+    footer hr{
+        width: 85%;
+    }
+}
